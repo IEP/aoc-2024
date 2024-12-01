@@ -7,10 +7,6 @@ import (
 	"os"
 )
 
-var (
-	ReadBufferSize = 100
-)
-
 type LineReader struct {
 	f *os.File
 	s *bufio.Scanner
